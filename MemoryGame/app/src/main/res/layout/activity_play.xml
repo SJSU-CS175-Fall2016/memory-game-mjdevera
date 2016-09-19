@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.marlowe.memorygame.PlayActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/team_table">
+
+            <ImageButton
+                android:id="@+id/imageButton1"
+                android:layout_column="0"
+                android:background="@drawable/nba_logo2"
+                android:layout_width="90dp"
+                android:layout_height="90dp"/>
+
+            <ImageButton
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:background="@drawable/nba_logo2"
+                android:id="@+id/imageButton2"/>
+
+            <ImageButton
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:background="@drawable/nba_logo2"
+                android:id="@+id/imageButton3"/>
+
+            <ImageButton
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:background="@drawable/nba_logo2"
+                android:id="@+id/imageButton4"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:background="@drawable/nba_logo2"
+                android:id="@+id/imageButton5"
+                android:layout_column="0"/>
+
+            <ImageButton
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:background="@drawable/nba_logo2"
+                android:id="@+id/imageButton6"/>
+
+            <ImageButton
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:background="@drawable/nba_logo2"
+                android:id="@+id/imageButton7"/>
+
+            <ImageButton
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:background="@drawable/nba_logo2"
+                android:id="@+id/imageButton8"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:background="@drawable/nba_logo2"
+                android:id="@+id/imageButton9"
+                android:layout_column="0"/>
+
+            <ImageButton
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:background="@drawable/nba_logo2"
+                android:id="@+id/imageButton10"/>
+
+            <ImageButton
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:background="@drawable/nba_logo2"
+                android:id="@+id/imageButton11"/>
+
+            <ImageButton
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:background="@drawable/nba_logo2"
+                android:id="@+id/imageButton12"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:background="@drawable/nba_logo2"
+                android:id="@+id/imageButton13"
+                android:layout_column="0"/>
+
+            <ImageButton
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:background="@drawable/nba_logo2"
+                android:id="@+id/imageButton14"/>
+
+            <ImageButton
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:background="@drawable/nba_logo2"
+                android:id="@+id/imageButton15"/>
+
+            <ImageButton
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:background="@drawable/nba_logo2"
+                android:id="@+id/imageButton16"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:background="@drawable/nba_logo2"
+                android:id="@+id/imageButton17"
+                android:layout_column="0"/>
+
+            <ImageButton
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:background="@drawable/nba_logo2"
+                android:id="@+id/imageButton18"/>
+
+            <ImageButton
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:background="@drawable/nba_logo2"
+                android:id="@+id/imageButton19"/>
+
+            <ImageButton
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:background="@drawable/nba_logo2"
+                android:id="@+id/imageButton20"/>
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>
